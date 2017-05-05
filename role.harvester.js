@@ -31,9 +31,9 @@ var roleHarvester = {
             
             targets.sort(function (a,b) {
                     if (a.structureType == STRUCTURE_SPAWN) {
-                        return -1;
-                    } else {
                         return 1;
+                    } else {
+                        return -1;
                     }
                 });
             
