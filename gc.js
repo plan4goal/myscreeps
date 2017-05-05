@@ -92,21 +92,7 @@ var gc = {
         'E51N4' : 'Yellow',
         'E51N3' : 'Red'
     },
-    
-    CREED_COUNT : {
-        ['E51N4' : {
-            ROLE_HARVESTER : 2,
-            ROLE_UPGRADER : 1,
-            ROLE_BUILDER : 1,
-            ROLE_PROTECTOR : 0, 
-            ROLE_REPAIRER_WALL : 1, 
-            ROLE_REPAIRER_ROAD : 1,
-            ROLE_STORETOLINK : 1,
-            ROLE_LINKTOUPGRADE : 1,
-            ROLE_RESOURCECOLLECTOR : 1
-        }]
-    }
-    
+        
     TOWER_ID_1 : '58ffa69fea98794b69733489',
     TOWER_ID_2 : '59073e6d00d2e8d72725196d',
     
