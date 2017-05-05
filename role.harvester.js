@@ -14,8 +14,7 @@ var roleHarvester = {
             
             if(creep.harvest(targetSource) == ERR_NOT_IN_RANGE) {
                 creep.moveTo(targetSource, {visualizePathStyle: {stroke: '#ffaa00'}});
-            }
-            
+            }            
             creep.memory.lastaction = gc.ACTION_CODE_HARVEST;
         }
         else {
