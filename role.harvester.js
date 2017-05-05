@@ -19,8 +19,6 @@ var roleHarvester = {
             creep.memory.lastaction = gc.ACTION_CODE_HARVEST;
         }
         else {
-            /** console.log(Game.getObjectById(creep.memory.targetId)); **/
-            
             creep.memory.targetId = null;
             creep.memory.lastaction = gc.ACTION_CODE_TRANSFER;
             
