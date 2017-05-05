@@ -72,7 +72,7 @@ var roleHarvester = {
 function findEnergySource(creep) {
     var targetSource = null;
     
-    var roomMemory = Game.rooms[gc.ROOM_NUMBER].memory;
+    var roomMemory = creep.room.memory;
             
     if (creep.memory.targetId == null) {
         var sources = creep.room.find(FIND_SOURCES);
