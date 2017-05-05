@@ -31,6 +31,15 @@ var roleHarvester = {
                         structure.structureType == STRUCTURE_TOWER) && structure.energy < structure.energyCapacity;
                 }
             });
+            
+            targets.sort(function (a,b) {
+                    if (a.structureType == STRUCTURE_SPAWN) {
+                        return -1;
+                    } else {
+                        return 1;
+                    }
+                });
+            
             if(targets.length > 0) {
                 if(creep.transfer(targets[0], RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
                     creep.moveTo(targets[0], {visualizePathStyle: {stroke: '#ffffff'}});
