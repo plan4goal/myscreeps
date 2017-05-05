@@ -30,7 +30,7 @@ var gc = {
     },
     
     DEFAULT_CREEP_HARVESTER: {
-        1 : [],
+        1 : [WORK,WORK,CARRY,MOVE],
         2 : [],
         3 : [],
         4 : [],
@@ -91,6 +91,31 @@ var gc = {
     SPAWN_NAME : {
         'E51N4' : 'Yellow',
         'E51N3' : 'Red'
+    },
+    
+    CREEPCOUNT : {
+        'E51N4' : { 
+            ROLE_HARVESTER : 2,  
+            ROLE_UPGRADER : 1,
+            ROLE_BUILDER : 1,
+            ROLE_PROTECTOR : 0, 
+            ROLE_REPAIRER_WALL : 1, 
+            ROLE_REPAIRER_ROAD : 1,
+            ROLE_STORETOLINK : 1,
+            ROLE_LINKTOUPGRADE : 1,
+            ROLE_RESOURCECOLLECTOR : 1,
+        },
+        'E51N3' : { 
+            ROLE_HARVESTER : 2,  
+            ROLE_UPGRADER : 0,
+            ROLE_BUILDER : 1,
+            ROLE_PROTECTOR : 0, 
+            ROLE_REPAIRER_WALL : 0, 
+            ROLE_REPAIRER_ROAD : 0,
+            ROLE_STORETOLINK : 0,
+            ROLE_LINKTOUPGRADE : 0,
+            ROLE_RESOURCECOLLECTOR : 0,
+        }
     },
         
     TOWER_ID_1 : '58ffa69fea98794b69733489',
