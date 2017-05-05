@@ -94,7 +94,7 @@ var gc = {
     },
     
     CREED_COUNT : {
-        'E51N4' : {
+        ['E51N4' : {
             ROLE_HARVESTER : 2,
             ROLE_UPGRADER : 1,
             ROLE_BUILDER : 1,
@@ -104,7 +104,7 @@ var gc = {
             ROLE_STORETOLINK : 1,
             ROLE_LINKTOUPGRADE : 1,
             ROLE_RESOURCECOLLECTOR : 1
-        }
+        }]
     }
     
     TOWER_ID_1 : '58ffa69fea98794b69733489',
