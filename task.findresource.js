@@ -19,6 +19,9 @@ var taskFindResource = {
             if(creep.harvest(source) == ERR_NOT_IN_RANGE) {
                 creep.moveTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
             }
+        } else {
+            creep.say('Nothing to do');
+            creep.moveTo(12,33, {visualizePathStyle: {stroke: '#ffaa00'}});
         }
     }
 };
